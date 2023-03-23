@@ -476,5 +476,11 @@ namespace EMS_Editor
                 RemoveEnemy();
             }
         }
+
+        private void creditsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var creditsForm = new Form2();
+            creditsForm.Show();
+        }
     }
 }
